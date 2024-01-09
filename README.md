@@ -19,9 +19,9 @@ O segundo estágio começa com uma imagem Docker vazia, chamada `scratch`, que �
 
 Depois de construído corretamente, o projeto pode ser executado com o seguinte comando:
 
-docker build -t <nome-da-image> .
+docker build -t nome-da-image .
 
-docker run <nome-da-image>
+docker run nome-da-image
 
 Depois de executado, o projeto deve imprimir a seguinte mensagem:
 
